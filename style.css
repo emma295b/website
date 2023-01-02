@@ -16,20 +16,27 @@
     src: url(font/urbanist-italic-variablefont_wght-webfont.woff2);
 }
 body{
-    background-color: #202020;
+    background-color: #131313;
 }
 
 h1{
     font-family: "major", sans-serif;
-    color: #D0E4EB;
+    color: #FFFAFF;
 }
 
 h2{
     font-family: "urban", sans-serif;
-    color: #D0E4EB;
+    color: #FFFAFF;
 }
 
 h3{
     font-family: "urbanitalic", sans-serif;
-    color: #D0E4EB;
+    color: #FFFAFF;
 }
+
+/*sticky thing
+div{
+    position:sticky;
+    */
+
+    
