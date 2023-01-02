@@ -1,1 +1,9 @@
+/*font*/
+@font-face {
+    font-family: "sunflower";
+    src: url(font/made_sunflower_personal_use-webfont.woff2);
+}
 
+p{
+    font-family: "sunflower", sans-serif;
+}
