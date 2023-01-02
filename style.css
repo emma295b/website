@@ -1,9 +1,35 @@
 /*font*/
 @font-face {
-    font-family: "sunflower";
-    src: url(font/made_sunflower_personal_use-webfont.woff2);
+    font-family: "major";
+    src: url(font/majormonodisplay-regular-webfont.woff2);
 }
 
-p{
-    font-family: "sunflower", sans-serif;
+@font-face{
+    
+    font-family: "urban";
+    src: url(font/urbanist-variablefont_wght-webfont.woff2);
+}
+
+@font-face{
+
+    font-family: "urbanitalic";
+    src: url(font/urbanist-italic-variablefont_wght-webfont.woff2);
+}
+body{
+    background-color: #202020;
+}
+
+h1{
+    font-family: "major", sans-serif;
+    color: #D0E4EB;
+}
+
+h2{
+    font-family: "urban", sans-serif;
+    color: #D0E4EB;
+}
+
+h3{
+    font-family: "urbanitalic", sans-serif;
+    color: #D0E4EB;
 }
