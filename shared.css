@@ -38,13 +38,15 @@ h1{
     color: #FFFAFF;
     font-size: 30px;
     margin-block: 5%;
+    text-align: center;
 }
 
 h2{
     font-family: "urban", sans-serif;
     color: #FFFAFF;
     font-size: 20px;
-    margin-block: 20%;
+    margin-block: 5%;
+    text-align: center;
 }
 
 h3{
@@ -55,6 +57,10 @@ h3{
 
 main{
     margin-inline: 20%;
+    margin-block: 5%;
+}
+
+.section{
     margin-block: 5%;
 }
 
@@ -77,6 +83,16 @@ li{
 a{
     color: #FFFAFF;
     text-decoration: none;
+    transition: 1s ease;
+}
+
+.nav_item h3:hover{
+    color: #FED700;
+    transition: 0.7s ease;
+}
+
+.nav_item h3:active{
+    color: #FF00C1;
 }
 
 .navbar{
@@ -100,14 +116,6 @@ a{
     margin-bottom: 20px;
 }
 
-.nav_link h3{
-    transition: 1s ease;
-}
-
-.nav_link h3:hover{
-    color: #FED700;
-}
-
 .hamburger{
     display: none;
     cursor: pointer;
@@ -124,6 +132,41 @@ a{
 }
 
 
+/* BREADCRUMBS */
+
+.breadcrumbs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color:#FFFAFF;
+    font-size: medium;
+
+}
+
+.breadcrumbs li {
+    list-style: none;
+    margin-inline: 0.2rem;
+}
+
+.breadcrumbs h3:hover{
+    color: #FED700;
+    transition: 1s ease;
+}
+
+.breadcrumbs h3:active{
+    color: #FF00C1;
+}
+
+
 
 
 /*---------FOOTER--------*/
@@ -135,19 +178,6 @@ footer{
    text-align: center;
 }
 
-.grid_1-3{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.grid_1-3 .logo{
-    grid-row: 1/2;
-    grid-column: 1/2;
-}
-
-.nav{
-    grid-row: 1/2;
-}
 
 
 /*------MEDIA-------*/
@@ -193,6 +223,9 @@ footer{
         background-repeat: no-repeat, no-repeat;
         background-size: cover, cover;
         background-position: 20px 120px, -20px 700px;
+    }
+    .section{
+        margin-block: 15%;
     }
 }
 
