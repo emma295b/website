@@ -85,6 +85,7 @@ a{
 .nav_logo img{
     width: 30%;
     height: auto;
+    margin-bottom: 20px;
 }
 
 .nav_link h3{
