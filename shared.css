@@ -87,11 +87,11 @@ a{
     height: auto;
 }
 
-.nav_link{
+.nav_link h3{
     transition: 0.7s ease;
 }
 
-.nav_link:hover{
+.nav_link h3:hover{
     color: #FED700;
 }
 
