@@ -27,24 +27,32 @@
 
 body{
     background-color: #131313;
+    background-image: url("pics/");
 }
 
 h1{
     font-family: "major", sans-serif;
     color: #FFFAFF;
-    font-size: 40px;
+    font-size: 30px;
+    margin-block: 5%;
 }
 
 h2{
     font-family: "urban", sans-serif;
     color: #FFFAFF;
     font-size: 20px;
+    margin-block: 20%;
 }
 
 h3{
     font-family: "urbanitalic", sans-serif;
     color: #FFFAFF;
     font-size: 15px;
+}
+
+main{
+    margin-inline: 20%;
+    margin-block: 5%;
 }
 
 /*-------HEADER-------*/
@@ -90,7 +98,7 @@ a{
 }
 
 .nav_link h3{
-    transition: 0.7s ease;
+    transition: 1s ease;
 }
 
 .nav_link h3:hover{
