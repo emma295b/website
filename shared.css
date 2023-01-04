@@ -27,9 +27,10 @@
 
 body{
     background-color: #131313;
-    background-image: url("pics/backgroundart.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("pics/backgroundartweb.png"), url("pics/backgroundartweb.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-position: 10px 0px, -50px 700px;
 }
 
 h1{
@@ -188,7 +189,7 @@ footer{
     }
 
     body{
-        background-image: url("pics/backgroundart.png"), url("pics/backgroundart.png");
+        background-image: url("pics/backgroundartmobile.png"), url("pics/backgroundartmobile.png");
         background-repeat: no-repeat, no-repeat;
         background-size: cover, cover;
         background-position: 20px 120px, -20px 700px;
