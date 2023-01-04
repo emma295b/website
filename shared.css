@@ -31,12 +31,12 @@ body{
     background-repeat: no-repeat, no-repeat;
     background-size: cover, cover;
     background-position: 10px 0px, -50px 700px;
-}
+}    
 
 h1{
     font-family: "major", sans-serif;
     color: #FFFAFF;
-    font-size: 30px;
+    font-size: 28px;
     margin-block: 5%;
     text-align: center;
 }
@@ -93,6 +93,7 @@ a{
 
 .nav_item h3:active{
     color: #FF00C1;
+    transition: 0.2s ease;
 }
 
 .navbar{
@@ -181,7 +182,7 @@ footer{
 
 
 /*------MEDIA-------*/
-@media(max-width:600px){
+@media(max-width:750px){
     .hamburger{
         display: block;
     }
