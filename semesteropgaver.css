@@ -110,15 +110,13 @@ body{
 @media(max-width:750px){
 
     body{
-        background-image: url("pics/backgroundartmobile.webp"), url("pics/backgroundartmobile.webp");
-        background-repeat: no-repeat, no-repeat;
-        background-size: contain, contain;
-        background-position: 20px 120px, -5px 800px;
+        background-image: url("pics/backgroundartmobile.webp"), url("pics/backgroundartmobile.webp") , url("pics/backgroundartmobile.webp");
+        background-repeat: no-repeat, no-repeat , no-repeat;
+        background-size: contain, contain, contain;
+        background-position: 20px 120px, -5px 800px, -5px 1500px;
     }
 
-    h3{
-      font-size: 10px;
-    }
+    
 
 /*------TEMAER------*/
 
@@ -127,7 +125,7 @@ body{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, 1fr);
         grid-column-gap: 0px;
-        grid-row-gap: 3%;
+        grid-row-gap: 2%;
         }
         
         .tema2 { grid-area: 1 / 1 / 2 / 2; }
