@@ -9,7 +9,16 @@ body{
     background-repeat: repeat-y;
     background-size: contain;
     background-position: 10px 0px;
-}    
+}
+
+.container{
+    display: grid;
+    place-items: center;
+}
+
+img, a{
+    grid-area: 1/1;
+}
 
 
 @media(max-width:750px){
@@ -19,9 +28,10 @@ body{
         place-items: center;
     }
 
-    img, h3{
+    img, a{
         grid-area: 1/1;
     }
+
     body{
         background-image: url("pics/backgroundartmobile.webp"), url("pics/backgroundartmobile.webp");
         background-repeat: no-repeat, no-repeat;

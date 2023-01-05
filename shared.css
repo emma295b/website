@@ -172,14 +172,7 @@ footer{
    font-family: "major", sans-serif;
    color: #FFFAFF;
    text-align: center;
-   position: fixed;
-   bottom: 0;
-   left: auto;
-   right: auto;
-}
-
-footer p{
-    margin-inline: auto;
+   
 }
 
 
@@ -221,7 +214,7 @@ footer p{
     .nav_menu.active{
         left: 0;
     }
-    
+
     .section{
         margin-block: 15%;
     }
