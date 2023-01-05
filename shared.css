@@ -169,12 +169,12 @@ a{
 /*---------FOOTER--------*/
 
 footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 10%;
    font-family: "major", sans-serif;
    color: #FFFAFF;
    text-align: center;
-   margin-left: 27%;
-   bottom: 0;
-   position: fixed;
 }
 
 
@@ -225,9 +225,6 @@ footer{
         display: none;
     }
 
-    footer{
-        margin-top: 100%;
-        margin-left:17%;
-    }
+    
 }
 
