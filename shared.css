@@ -172,7 +172,9 @@ footer{
    font-family: "major", sans-serif;
    color: #FFFAFF;
    text-align: center;
-   
+   margin-left: 27%;
+   bottom: 0;
+   position: fixed;
 }
 
 
@@ -221,6 +223,12 @@ footer{
 
     .breadcrumbs{
         display: none;
+    }
+
+    footer{
+        margin-left:15%;
+        position: fixed;
+        bottom: 0;
     }
 }
 
