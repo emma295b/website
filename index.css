@@ -9,3 +9,25 @@
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+
+
+/*--------GENERAL--------*/
+
+body{
+  background-image: url("pics/backgroundartweb.webp"), url("pics/backgroundartweb.webp");
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  background-position: 10px 0px, -50px 700px;
+}    
+
+
+
+@media(max-width:750px){
+
+  body{
+    background-image: url("pics/backgroundartmobile.webp"), url("pics/backgroundartmobile.webp");
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+    background-position: 20px 120px, -5px 700px;
+}
+}
