@@ -53,7 +53,7 @@ h3{
 
 main{
     margin-inline: 20%;
-    margin-block: 5%;
+    margin-block: 2%;
 }
 
 .section{
@@ -139,8 +139,6 @@ a{
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     
 }
 
@@ -165,6 +163,18 @@ a{
     color: #FF00C1;
 }
 
+/*---------FADEIN----------*/
+
+.fadein {
+    animation: fadeIn 3s;
+  }
+  
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
 
 
 
@@ -226,6 +236,19 @@ footer{
     .breadcrumbs{
         display: none;
     }
+
+    /*---------FADEIN----------*/
+
+.fadein {
+    animation: fadeIn 3s;
+  }
+  
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
 
     
 }
