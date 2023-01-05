@@ -29,7 +29,7 @@ body{
     background-color: #131313;
     background-image: url("pics/backgroundartweb.png"), url("pics/backgroundartweb.png");
     background-repeat: no-repeat, no-repeat;
-    background-size: cover, cover;
+    background-size: contain, contain;
     background-position: 10px 0px, -50px 700px;
 }    
 
@@ -222,8 +222,8 @@ footer{
     body{
         background-image: url("pics/backgroundartmobile.png"), url("pics/backgroundartmobile.png");
         background-repeat: no-repeat, no-repeat;
-        background-size: cover, cover;
-        background-position: 20px 120px, -20px 700px;
+        background-size: contain, contain;
+        background-position: 20px 120px, -5px 700px;
     }
     .section{
         margin-block: 15%;
