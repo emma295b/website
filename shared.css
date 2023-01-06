@@ -27,6 +27,7 @@
 
 body{
     background-color: #131313;
+    max-width: 1800px;
 }
 
 h1{
@@ -40,7 +41,7 @@ h1{
 h2{
     font-family: "urban", sans-serif;
     color: #FFFAFF;
-    font-size: 20px;
+    font-size: 15px;
     margin-block: 5%;
     text-align: center;
 }
@@ -49,12 +50,18 @@ h3{
     font-family: "urbanitalic", sans-serif;
     color: #FFFAFF;
     font-size: 15px;
+    text-align: center;
 }
 
-main:not(#btn_div){
-    margin-inline: 20%;
+main{
+    max-width: 2000px;
     margin-block: 2%;
 }
+
+.content{
+    margin-inline: 15%;
+}
+
 
 .section{
     margin-block: 5%;
@@ -131,13 +138,14 @@ a{
 
 /*---------FOOTER--------*/
 
+
 footer{
     display: grid;
     grid-template-columns: 1fr;
     padding-top: 10%;
-   font-family: "major", sans-serif;
-   color: #FFFAFF;
-   text-align: center;
+    font-family: "major", sans-serif;
+    color: #FFFAFF;
+    text-align: center;
 }
 
 /*-------BUTTON--------*/
@@ -188,6 +196,9 @@ footer{
 
 /*------MEDIA-------*/
 @media(max-width:750px){
+
+    
+
     .hamburger{
         display: block;
     }
