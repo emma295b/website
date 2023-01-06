@@ -217,6 +217,11 @@ footer{
     .section{
         margin-block: 15%;
     }
+
+    .breadcrumbs{
+        display: none;
+    }
+
  
 }
 
