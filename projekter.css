@@ -113,7 +113,7 @@ body{
         background-image: url("pics/backgroundartmobile.webp"), url("pics/backgroundartmobile.webp") , url("pics/backgroundartmobile.webp");
         background-repeat: no-repeat, no-repeat , no-repeat;
         background-size: contain, contain, contain;
-        background-position: 20px 120px, -5px 800px, -5px 1500px;
+        background-position: 10px 100px, -5px 800px, -5px 1500px;
     }
 
     
