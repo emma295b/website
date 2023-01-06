@@ -51,7 +51,7 @@ h3{
     font-size: 15px;
 }
 
-main{
+main:not(#btn_div){
     margin-inline: 20%;
     margin-block: 2%;
 }
@@ -65,12 +65,9 @@ header{
     outline-style: solid;
     outline-color: #9600FF;
     background-color: #131313;
-    
 }
 nav{
     color:#FFFAFF;
-    
-    
 }
 
 li{
@@ -107,6 +104,7 @@ a{
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+    z-index: 1000;
 }
 
 .nav_logo img{
@@ -143,9 +141,48 @@ footer{
 }
 
 /*-------BUTTON--------*/
-button{
-    display: none;
-}
+
+.custom_btn {
+    width: 130px;
+    height: 40px;
+    color: #FFFAFF;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+.btn {
+    background: rgb(43, 43, 43);
+    border: none;
+    z-index: 1;
+  }
+
+  .btn:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #FF00C1;
+    border-radius: 5px;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover:after {
+    width: 100%;
+  }
 
 
 
@@ -191,57 +228,16 @@ button{
         margin-block: 15%;
     }
 
-    .breadcrumbs{
-        display: none;
-    }
-
 /*-------BUTTON-------*/
-
-
-    .custom-btn {
-        width: 130px;
-        height: 40px;
-        color: #FFFAFF;
-        border-radius: 5px;
-        margin-block: 10%;
-        background: transparent;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        position: relative;
-        display: inline-block;
-        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-         7px 7px 20px 0px rgba(0,0,0,.1),
-         4px 4px 5px 0px rgba(0,0,0,.1);
-        outline: none;
-      }
-
-    .btn {
-        background: #202020;
-        border: none;
-        z-index: 1;
+    .custom_btn {
+        width: 100px;
+        height: 35px;
     }
 
-    .btn:after {
-        position: absolute;
-        content: "";
-        width: 0;
-        height: 100%;
-        top: 0;
-        right: 0;
-        z-index: -1;
-        background-color: #FF00C1;
-        border-radius: 5px;
-        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-        7px 7px 20px 0px rgba(0,0,0,.1),
-        4px 4px 5px 0px rgba(0,0,0,.1);
-        transition: all 0.3s ease;
-     }
-
-    
-    .btn:hover:after {
-        width: 100%;
+    .btn_div{
+        margin-top: 30px;
     }
-
+  
 }
 
 
