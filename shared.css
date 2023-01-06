@@ -151,6 +151,7 @@ footer{
 /*-------BUTTON--------*/
 
 .custom_btn {
+    margin-left: 20px;
     width: 130px;
     height: 40px;
     color: #FFFAFF;
@@ -160,14 +161,12 @@ footer{
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    outline: none;
+    font-family: "urbanitalic", serif;
+    font-weight: 800;
   }
 
 .btn {
-    background: rgb(43, 43, 43);
+    background: transparent;
     border: none;
     z-index: 1;
   }
@@ -182,9 +181,6 @@ footer{
     z-index: -1;
     background-color: #FF00C1;
     border-radius: 5px;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
     transition: all 0.3s ease;
   }
   
