@@ -49,6 +49,13 @@ div .tematekst h2{
     place-items: center;
     }
 
+.temagrid2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+    }
+
 .content{
     background-color: #181818;
     border-radius: 2rem;
