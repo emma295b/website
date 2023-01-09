@@ -1,3 +1,10 @@
+img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-block: 5%;
+}
+
 a h3:hover{
     color: #9600FF;
     transition: 0.3s ease;
@@ -16,6 +23,10 @@ video{
     text-align: center;
 }
 
+.mellemrum{
+    margin-top: 15%;
+}
+
 
 body{
     background-image: url("pics/backgroundartmobile.webp"), url("pics/backgroundartmobile.webp") , url("pics/backgroundartmobile.webp");
@@ -26,7 +37,16 @@ body{
 
 div .tematekst h2{
     font-size: 12px;
+    margin-inline: 5%;
 }
+
+.temagrid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    text-align: center;
+    }
+
 
 
 @media(max-width:750px){
@@ -42,4 +62,23 @@ div .tematekst h2{
         width: 100%;
         height: auto;
     }
+
+    .temagrid1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .mellemrum{
+        margin-top: 30%;
+    }
+
+    
 }
