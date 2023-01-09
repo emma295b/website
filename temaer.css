@@ -6,7 +6,7 @@ img {
 }
 
 a h3:hover{
-    color: #9600FF;
+    color: #FED700;
     transition: 0.3s ease;
 }
 
@@ -14,10 +14,16 @@ main a h3{
     text-decoration: underline;
 }
 
+/*-----VIDEO-----*/
+
 video{
     width: 70%;
     height: auto;
     padding: 20px;
+}
+
+.video{
+   text-align: center;
 }
 
 div .mellemrum{
