@@ -1,6 +1,10 @@
 a h3:hover{
-    color: #FED700;
-    transition: 0.7s ease;
+    color: #9600FF;
+    transition: 0.3s ease;
+}
+
+main a h3{
+    text-decoration: underline;
 }
 
 video{
@@ -18,6 +22,10 @@ body{
     background-repeat: no-repeat, no-repeat , no-repeat;
     background-size: contain, contain, contain;
     background-position: 10px 100px, -5px 800px, -5px 1500px;
+}
+
+div .tematekst h2{
+    font-size: 12px;
 }
 
 
