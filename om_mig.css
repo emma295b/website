@@ -7,6 +7,61 @@ body{
     background-position: 10px 0px, -50px 700px;
   }
 
+.temagrid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 10%;
+    }
+
+img{
+  width: 80%;
+  height: auto;
+  text-align: center;
+  border-radius: 2rem;
+}
+
+.navn{
+  font-size: 30px;
+}
+
+.tematekst h2{
+  font-size: 13px;
+  margin-inline: 5%;
+}
+
+.temagrid2 .tematekst{
+  grid-column: 1/3;
+}
+
+.temagrid2 .færdigheder{
+  grid-column: 1/2;
+  outline: solid;
+  outline-color: #FED700;
+  margin-inline: 5%;
+}
+
+.færdigheder ul li{
+  color:#FED700;
+}
+
+.færdigheder ul li h2{
+  font-size: 12px;
+}
+
+.nye_færdigheder{
+  color: #FF00C1;
+}
+
+.temagrid2 .teksttema{
+  grid-column: span 2;
+}
+
+.temagrid2 .teksttema h2{
+  font-size: 13px;
+}
+
+
 
 @media(max-width:750px){
 
@@ -15,5 +70,16 @@ body{
       background-repeat: no-repeat, no-repeat;
       background-size: contain, contain;
       background-position: 20px 120px, -5px 700px;
+  }
+
+  .temagrid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+  }
+
+  .navn{
+    font-size: 20px;
   }
   }
