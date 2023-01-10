@@ -8,6 +8,10 @@ body{
   background-position: 10px 0px, -50px 700px;
 }    
 
+.actionbutton{
+  color: #FED700;
+    transition: 0.5s ease;
+}
 
 
 @media(max-width:750px){

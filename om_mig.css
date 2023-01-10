@@ -14,11 +14,12 @@ body{
     margin-top: 10%;
     }
 
-img{
-  width: 80%;
+div img{
+  width: 100%;
   height: auto;
-  text-align: center;
+  place-items: center;
   border-radius: 2rem;
+  margin-top: 25%;
 }
 
 .navn{
@@ -31,7 +32,8 @@ img{
 }
 
 .temagrid2 .tematekst{
-  grid-column: 1/3;
+  grid-column: 2/3;
+  grid-column: span 2;
 }
 
 .temagrid2 .færdigheder{
@@ -53,12 +55,13 @@ img{
   color: #FF00C1;
 }
 
-.temagrid2 .teksttema{
-  grid-column: span 2;
-}
-
 .temagrid2 .teksttema h2{
   font-size: 15px;
+}
+
+.temagrid2 .teksttema{
+  order: 2;
+  grid-column: span 2;
 }
 
 
@@ -85,5 +88,17 @@ img{
 
   .teksttema{
     margin-top: 10%;
+  }
+
+  .temagrid2 .teksttema{
+    order: -1;
+  }
+
+  div img{
+    width: 85%;
+    height: auto;
+    place-items: center;
+    border-radius: 2rem;
+    margin-top: 5%;
   }
   }
