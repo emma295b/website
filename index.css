@@ -8,11 +8,37 @@ body{
   background-position: 10px 0px, -50px 700px;
 }    
 
-.actionbutton{
+div a h3:hover{
   color: #FED700;
-    transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
+div a h3{
+  text-decoration: underline;
+}
+
+footer{
+  margin-top: 7%;
+}
+
+
+/*-----ICONS-----
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+}
+
+.fa:hover {
+  color: #FF00C1;
+  transition: 0.5s ease;
+}
+
+div a .fa{
+  place-items: center;
+}
+
+*/
 
 @media(max-width:750px){
 
@@ -21,5 +47,9 @@ body{
     background-repeat: no-repeat, no-repeat;
     background-size: contain, contain;
     background-position: 20px 120px, -5px 700px;
+}
+
+footer{
+  margin-top: 25%;
 }
 }
