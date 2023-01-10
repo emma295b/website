@@ -34,14 +34,14 @@ body{
 h1{
     font-family: "major", sans-serif;
     color: #FFFAFF;
-    font-size: 28px;
+    font-size: 30px;
     text-align: center;
 }
 
 h2{
     font-family: "urban", sans-serif;
     color: #FFFAFF;
-    font-size: 16px;
+    font-size: 17px;
     margin-block: 5%;
     text-align: center;
 }
@@ -49,7 +49,7 @@ h2{
 h3{
     font-family: "urbanitalic", sans-serif;
     color: #FFFAFF;
-    font-size: 13px;
+    font-size: 17px;
     text-align: center;
 }
 
