@@ -27,7 +27,6 @@
 
 body{
     background-color: #131313;
-    max-width: 1800px;
     line-height: 1.6;
 }
 
@@ -54,12 +53,14 @@ h3{
 }
 
 main{
-    max-width: 2000px;
+    max-width: 1200px;
     margin-block: 2%;
+    margin-inline: auto;
 }
 
 .content{
-    margin-inline: 20%;
+    max-width: 70ch;
+    margin-inline: auto;
 }
 
 
@@ -193,8 +194,6 @@ footer{
 /*------MEDIA-------*/
 @media(max-width:750px){
 
-    
-
     .hamburger{
         display: block;
     }
@@ -244,7 +243,11 @@ footer{
     .btn_div{
         margin-top: 30px;
     }
-  
+
+    .content{
+        margin-inline: 5%;
+        margin-block: 1%;
+    }
 }
 
 
