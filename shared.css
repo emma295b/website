@@ -40,12 +40,20 @@ h1{
 h2{
     font-family: "urban", sans-serif;
     color: #FFFAFF;
-    font-size: 17px;
+    font-size: 19px;
     margin-block: 5%;
     text-align: center;
 }
 
 h3{
+    font-family: "urban", sans-serif;
+    color: #FFFAFF;
+    font-size: 17px;
+    margin-block: 5%;
+    text-align: center;
+}
+
+h4{
     font-family: "urbanitalic", sans-serif;
     color: #FFFAFF;
     font-size: 17px;
@@ -59,7 +67,7 @@ main{
 }
 
 .content{
-    max-width: 70ch;
+    max-width: 90ch;
     margin-inline: auto;
 }
 
@@ -213,7 +221,7 @@ footer{
     .nav_menu{
         position: fixed;
         left: -100%;
-        top: 100px;
+        top: 115px;
         gap: 0;
         flex-direction: column;
         background-color: #131313;

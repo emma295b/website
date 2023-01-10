@@ -19,14 +19,14 @@ div img{
   height: auto;
   place-items: center;
   border-radius: 2rem;
-  margin-top: 25%;
+  margin-top: 5%;
 }
 
 .navn{
   font-size: 30px;
 }
 
-.tematekst h2{
+.tematekst h3{
   font-size: 15px;
   margin-inline: 5%;
 }
@@ -47,7 +47,7 @@ div img{
   color:#FED700;
 }
 
-.færdigheder ul li h2{
+.færdigheder ul li h3{
   font-size: 15px;
 }
 
@@ -55,7 +55,7 @@ div img{
   color: #FF00C1;
 }
 
-.temagrid2 .teksttema h2{
+.temagrid2 .teksttema h3{
   font-size: 15px;
 }
 
